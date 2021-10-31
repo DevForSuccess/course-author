@@ -1,0 +1,1 @@
+cbimport csv -c couchbase://127.0.0.1:8091 -u <login> -p <password> -b 'author' -g %author_id% -d file://authorData.csv
